@@ -1,4 +1,4 @@
-/* RESET DASAR */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -7,55 +7,52 @@
 
 /* BODY */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #f3f4f6, #e0f2fe);
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff; /* putih */
+    color: #0b1f4d; /* navy */
+    line-height: 1.7;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* HEADER */
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #091141;
+    padding: 25px;
+    background-color: #0b1f4d; /* navy */
     color: white;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
-header h1 {
-    font-size: 28px;
+/* FOTO */
+img {
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 /* JUDUL SECTION */
 h2 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    color: #0f172a;
-    border-left: 5px solid #091141;
-    padding-left: 10px;
-}
-
-/* FOTO PROFIL */
-img {
-    display: block;
-    margin: 15px auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    object-fit: cover;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    display: inline-block; /* supaya garis tidak full */
+    border-bottom: 3px solid #0b1f4d; /* navy */
+    padding-bottom: 5px;
 }
 
 /* PARAGRAF */
 p {
-    margin-bottom: 15px;
-    text-align: justify;
+    margin-bottom: 18px;
 }
 
 /* LIST */
 ul, ol {
-    margin-left: 25px;
-    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 li {
@@ -64,40 +61,30 @@ li {
 
 /* LINK */
 a {
+    color: #0b1f4d;
     text-decoration: none;
-    color: #091141;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 a:hover {
-    color: #091141;
     text-decoration: underline;
-}
-
-/* SECTION BOX STYLE */
-ul, ol, p {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    margin-top: 30px;
-    padding: 15px;
-    background-color: #091141;
-    color: rgb(4, 6, 42);
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #0b1f4d; /* navy */
+    color: white;
     border-radius: 10px;
     font-size: 14px;
 }
 
 /* HR */
 hr {
-    margin: 20px 0;
+    margin: 30px 0;
     border: none;
     height: 2px;
-    background-color: #091141;
-    border-radius: 5px;
+    background-color: #0b1f4d; /* navy */
 }
